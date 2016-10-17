@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F30FBC91C9014FF00A4999E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F30FBC71C9014FF00A4999E /* main.cpp */; };
+		7F30FBCA1C9014FF00A4999E /* SurveyFlops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F30FBC81C9014FF00A4999E /* SurveyFlops.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F30FBBA1C90144C00A4999E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F30FBBC1C90144C00A4999E /* SurveyFlops */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SurveyFlops; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F30FBC61C9014FF00A4999E /* SurveyFlops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SurveyFlops.h; path = src/SurveyFlops.h; sourceTree = "<group>"; };
+		7F30FBC71C9014FF00A4999E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = "<group>"; };
+		7F30FBC81C9014FF00A4999E /* SurveyFlops.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SurveyFlops.cpp; path = src/SurveyFlops.cpp; sourceTree = "<group>"; };
+		7F82914E1C9832E800D09475 /* picojson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = picojson.h; path = ext/picojson/picojson.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F30FBB91C90144C00A4999E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F30FBB31C90144C00A4999E = {
+			isa = PBXGroup;
+			children = (
+				7F82914E1C9832E800D09475 /* picojson.h */,
+				7F30FBC61C9014FF00A4999E /* SurveyFlops.h */,
+				7F30FBC71C9014FF00A4999E /* main.cpp */,
+				7F30FBC81C9014FF00A4999E /* SurveyFlops.cpp */,
+				7F30FBBE1C90144C00A4999E /* SurveyFlops */,
+				7F30FBBD1C90144C00A4999E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F30FBBD1C90144C00A4999E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F30FBBC1C90144C00A4999E /* SurveyFlops */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F30FBBE1C90144C00A4999E /* SurveyFlops */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SurveyFlops;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F30FBBB1C90144C00A4999E /* SurveyFlops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F30FBC31C90144C00A4999E /* Build configuration list for PBXNativeTarget "SurveyFlops" */;
+			buildPhases = (
+				7F30FBB81C90144C00A4999E /* Sources */,
+				7F30FBB91C90144C00A4999E /* Frameworks */,
+				7F30FBBA1C90144C00A4999E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurveyFlops;
+			productName = SurveyFlops;
+			productReference = 7F30FBBC1C90144C00A4999E /* SurveyFlops */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F30FBB41C90144C00A4999E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Fujitsu Kyushu Systems";
+				TargetAttributes = {
+					7F30FBBB1C90144C00A4999E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 7F30FBB71C90144C00A4999E /* Build configuration list for PBXProject "SurveyFlops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F30FBB31C90144C00A4999E;
+			productRefGroup = 7F30FBBD1C90144C00A4999E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F30FBBB1C90144C00A4999E /* SurveyFlops */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F30FBB81C90144C00A4999E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F30FBCA1C9014FF00A4999E /* SurveyFlops.cpp in Sources */,
+				7F30FBC91C9014FF00A4999E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F30FBC11C90144C00A4999E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F30FBC21C90144C00A4999E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F30FBC41C90144C00A4999E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F30FBC51C90144C00A4999E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F30FBB71C90144C00A4999E /* Build configuration list for PBXProject "SurveyFlops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F30FBC11C90144C00A4999E /* Debug */,
+				7F30FBC21C90144C00A4999E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F30FBC31C90144C00A4999E /* Build configuration list for PBXNativeTarget "SurveyFlops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F30FBC41C90144C00A4999E /* Debug */,
+				7F30FBC51C90144C00A4999E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F30FBB41C90144C00A4999E /* Project object */;
+}
